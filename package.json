@@ -1,0 +1,31 @@
+{
+  "name": "projeto-va02-de-qa---p5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:e2e": "cypress run --spec 'cypress/e2e/features/**/*.feature'"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/steps/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrewanport/PROJETO-VA02-DE-QA---P5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrewanport/PROJETO-VA02-DE-QA---P5/issues"
+  },
+  "homepage": "https://github.com/Andrewanport/PROJETO-VA02-DE-QA---P5#readme",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^13.17.0"
+  }
+}

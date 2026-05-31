@@ -1,0 +1,9 @@
+{
+  "nomeValido": "JOSE",
+  "nomeInexistente": "XYZABCDEF123",
+  "nomeParcialeEsperado": "JOSE",
+  "orgaos": [
+    "Ministério da Saúde",
+    "Ministério da Educação"
+  ]
+}
