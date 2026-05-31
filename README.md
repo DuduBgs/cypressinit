@@ -1,4 +1,4 @@
-# Projeto VA02 — Automação BDD com Cypress + Cucumber + Gherkin
+# PROJETO VA02 DE QA - P5 Projeto BDD: Cypress + Cucumber + Gherkin
 
 Projeto acadêmico de QA (Qualidade de Software) que automatiza testes E2E no **Portal da Transparência do Governo Federal** utilizando a abordagem BDD.
 
